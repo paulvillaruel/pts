@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{31C5DF45-DD24-43F7-8415-340761264B02}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>Core</RootNamespace>
+    <AssemblyName>Core</AssemblyName>
+    <MyType>Windows</MyType>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/PTS/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Core.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Core.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.Excel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common">
+      <HintPath>..\..\lib\DAAB\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\..\lib\DAAB\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder">
+      <HintPath>..\..\lib\DAAB\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\clsInterface.vb" />
+    <Compile Include="Classes\clsReceiveDelivery.vb" />
+    <Compile Include="Forms\ContainerDamages.Designer.vb">
+      <DependentUpon>ContainerDamages.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ContainerDamages.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rptShiftedList.vb">
+      <DependentUpon>rptShiftedList.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="rptForShiftingList.vb">
+      <DependentUpon>rptForShiftingList.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="rptLoadedList.vb">
+      <DependentUpon>rptLoadedList.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="rptDischargedList.vb">
+      <DependentUpon>rptDischargedList.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Forms\Agent.Designer.vb">
+      <DependentUpon>Agent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Agent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\clsMain.vb">
+    </Compile>
+    <Compile Include="Classes\clsDataProcesses.vb" />
+    <Compile Include="Forms\DepotList.Designer.vb">
+      <DependentUpon>DepotList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DepotList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ExecuteDischarging.designer.vb">
+      <DependentUpon>ExecuteDischarging.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ExecuteDischarging.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ExecuteLoading.Designer.vb">
+      <DependentUpon>ExecuteLoading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ExecuteLoading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HandlingCodes.Designer.vb">
+      <DependentUpon>HandlingCodes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HandlingCodes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ReportInventory.Designer.vb">
+      <DependentUpon>ReportInventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ReportInventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TruckDriver.Designer.vb">
+      <DependentUpon>TruckDriver.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TruckDriver.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rptReleasing.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReleasing.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Users.Designer.vb">
+      <DependentUpon>Users.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Users.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Equipment.Designer.vb">
+      <DependentUpon>Equipment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Equipment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ISOCodes.Designer.vb">
+      <DependentUpon>ISOCodes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ISOCodes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Line.Designer.vb">
+      <DependentUpon>Line.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Line.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PCheck.Designer.vb">
+      <DependentUpon>PCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsetPTS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsetPTS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsetPTS.vb">
+      <DependentUpon>dsetPTS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DropList.Designer.vb">
+      <DependentUpon>DropList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DropList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CreateContainer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CreateContainer.Designer.vb">
+      <DependentUpon>CreateContainer.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Classes\modGlobal.vb" />
+    <Compile Include="Forms\ReportList.Designer.vb">
+      <DependentUpon>ReportList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ReportList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rptForDischarging.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptForDischarging.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptForLoading.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptForLoading.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptInventory.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptInventory.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\ContainerDamages.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ContainerDamages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptShiftedList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptShiftedList.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptForShiftingList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptForShiftingList.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptLoadedList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptLoadedList.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDischargedList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDischargedList.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Agent.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Agent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DepotList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DepotList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ExecuteDischarging.resx">
+      <DependentUpon>ExecuteDischarging.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ExecuteLoading.resx">
+      <DependentUpon>ExecuteLoading.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HandlingCodes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HandlingCodes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ReportInventory.resx">
+      <DependentUpon>ReportInventory.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TruckDriver.resx">
+      <DependentUpon>TruckDriver.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptReleasing.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReleasing.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Users.resx">
+      <DependentUpon>Users.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Equipment.resx">
+      <DependentUpon>Equipment.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ISOCodes.resx">
+      <DependentUpon>ISOCodes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Line.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Line.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PCheck.resx">
+      <DependentUpon>PCheck.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DropList.resx">
+      <DependentUpon>DropList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CreateContainer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CreateContainer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ReportList.resx">
+      <DependentUpon>ReportList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptForDischarging.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptForDischarging.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptForLoading.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptForLoading.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptInventory.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptInventory.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CrystalReport1.mht" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\mainSBITC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PushpinHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Discharging.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loading.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnLinkIN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnLinkOut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZoomHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZoomHS14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZoomHS141.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BreakpointHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flag_redHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flag_greenHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flag_blueHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0060-0506-2816-0503.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewReportHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewCardHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GenerateVoyageOUTID.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GenerateVoyageINID.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SearchUnlimited.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dsetPTS.xsc">
+      <DependentUpon>dsetPTS.xsd</DependentUpon>
+    </None>
+    <None Include="dsetPTS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsetPTS.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsetPTS.xss">
+      <DependentUpon>dsetPTS.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\SearchUnlimitedB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SqlDal\SQLDal.vbproj">
+      <Project>{9C17B1DD-8B34-4890-BDF6-CA5171A570F7}</Project>
+      <Name>SQLDal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VesselBuilder\VesselBuilder.vbproj">
+      <Project>{C2721C7F-6683-4B85-87A8-34D27AAF7B44}</Project>
+      <Name>VesselBuilder</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mnhpi.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Port Terminal Startup 2.0">
+</Property><Property Name="Solution File" Value="F:\src\cts2010\Client\Port Terminal Startup 2.0.sln">
+</Property><Property Name="Date" Value="Saturday, August 31, 2013">
+</Property><Property Name="Time" Value="15:10 PM">
+</Property><Property Name="Log Number" Value="6">
+</Property></Properties><Event ErrorLevel="4" Project="ClientUI" Source="http://go.microsoft.com/fwlink/?LinkId=159919" Description="Warning: this project requires Crystal Reports, which is no longer included with Visual Studio. Please click here for more information.">
+</Event><Event ErrorLevel="1" Project="ClientUI" Source="ClientUI.vbproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="ClientUI" Source="ClientUI.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ClientUI" Source="ClientUI.vbproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="FormPrinting" Source="..\FormPrinting\FormPrinting.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="FormPrinting" Source="..\FormPrinting\FormPrinting.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="FormPrinting" Source="..\FormPrinting\FormPrinting.csproj" Description="Converted">
+</Event><Event ErrorLevel="4" Project="Core" Source="http://go.microsoft.com/fwlink/?LinkId=159919" Description="Warning: this project requires Crystal Reports, which is no longer included with Visual Studio. Please click here for more information.">
+</Event><Event ErrorLevel="1" Project="Core" Source="..\Core\Core.vbproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="Core" Source="..\Core\Core.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Core" Source="..\Core\Core.vbproj" Description="Converted">
+</Event><Event ErrorLevel="4" Project="VesselBuilder" Source="http://go.microsoft.com/fwlink/?LinkId=159919" Description="Warning: this project requires Crystal Reports, which is no longer included with Visual Studio. Please click here for more information.">
+</Event><Event ErrorLevel="1" Project="VesselBuilder" Source="..\VesselBuilder\VesselBuilder.vbproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="VesselBuilder" Source="..\VesselBuilder\VesselBuilder.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VesselBuilder" Source="..\VesselBuilder\VesselBuilder.vbproj" Description="Converted">
+</Event><Event ErrorLevel="4" Project="Gates" Source="http://go.microsoft.com/fwlink/?LinkId=159919" Description="Warning: this project requires Crystal Reports, which is no longer included with Visual Studio. Please click here for more information.">
+</Event><Event ErrorLevel="1" Project="Gates" Source="..\Gates\Gates.vbproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="Gates" Source="..\Gates\Gates.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Gates" Source="..\Gates\Gates.vbproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="RegistryConfiguration" Source="..\RegistryConfiguration\RegistryConfiguration.vbproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="RegistryConfiguration" Source="..\RegistryConfiguration\RegistryConfiguration.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="RegistryConfiguration" Source="..\RegistryConfiguration\RegistryConfiguration.vbproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="VesselVisitManagement" Source="..\VesselVisit\VesselVisitManagement.vbproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\VesselVisitManagement.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VesselVisitManagement" Source="..\VesselVisit\VesselVisitManagement.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SQLDal" Source="..\SqlDal\SQLDal.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SQLDal" Source="..\SqlDal\SQLDal.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Port Terminal Startup 2.0.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Port Terminal Startup 2.0.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ClientUI" Source="ClientUI.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="FormPrinting" Source="..\FormPrinting\FormPrinting.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Core" Source="..\Core\Core.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="VesselBuilder" Source="..\VesselBuilder\VesselBuilder.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Gates" Source="..\Gates\Gates.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="RegistryConfiguration" Source="..\RegistryConfiguration\RegistryConfiguration.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\VesselVisitManagement.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SQLDal" Source="..\SqlDal\SQLDal.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

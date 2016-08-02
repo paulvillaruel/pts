@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsMenu" targetNamespace="http://tempuri.org/dsMenu.xsd" xmlns:mstns="http://tempuri.org/dsMenu.xsd" xmlns="http://tempuri.org/dsMenu.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsMenu" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsMenu" msprop:Generator_DataSetName="dsMenu">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtblMenuDef" msprop:Generator_UserTableName="dtblMenuDef" msprop:Generator_RowDeletedName="dtblMenuDefRowDeleted" msprop:Generator_TableClassName="dtblMenuDefDataTable" msprop:Generator_RowChangedName="dtblMenuDefRowChanged" msprop:Generator_RowClassName="dtblMenuDefRow" msprop:Generator_RowChangingName="dtblMenuDefRowChanging" msprop:Generator_RowEvArgName="dtblMenuDefRowChangeEvent" msprop:Generator_RowEvHandlerName="dtblMenuDefRowChangeEventHandler" msprop:Generator_TablePropName="dtblMenuDef" msprop:Generator_TableVarName="tabledtblMenuDef" msprop:Generator_RowDeletingName="dtblMenuDefRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="mnucde" msprop:Generator_UserColumnName="mnucde" msprop:Generator_ColumnPropNameInRow="mnucde" msprop:Generator_ColumnVarNameInTable="columnmnucde" msprop:Generator_ColumnPropNameInTable="mnucdeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="prtmnu" msprop:Generator_UserColumnName="prtmnu" msprop:Generator_ColumnPropNameInRow="prtmnu" msprop:Generator_ColumnVarNameInTable="columnprtmnu" msprop:Generator_ColumnPropNameInTable="prtmnuColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="mnudesc" msprop:Generator_UserColumnName="mnudesc" msprop:Generator_ColumnPropNameInRow="mnudesc" msprop:Generator_ColumnVarNameInTable="columnmnudesc" msprop:Generator_ColumnPropNameInTable="mnudescColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="imgndx" msprop:Generator_UserColumnName="imgndx" msprop:Generator_ColumnPropNameInRow="imgndx" msprop:Generator_ColumnVarNameInTable="columnimgndx" msprop:Generator_ColumnPropNameInTable="imgndxColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="en_us" msprop:Generator_UserColumnName="en_us" msprop:Generator_ColumnPropNameInRow="en_us" msprop:Generator_ColumnVarNameInTable="columnen_us" msprop:Generator_ColumnPropNameInTable="en_usColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ar_sy" msprop:Generator_UserColumnName="ar_sy" msprop:Generator_ColumnPropNameInRow="ar_sy" msprop:Generator_ColumnVarNameInTable="columnar_sy" msprop:Generator_ColumnPropNameInTable="ar_syColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

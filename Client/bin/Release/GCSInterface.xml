@@ -1,0 +1,98 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GCSInterface
+</name>
+</assembly>
+<members>
+<member name="P:GCSInterface.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:GCSInterface.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:GCSInterface.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:GCSInterface.GCSClass.InsUpdContainer(System.String,System.Object,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.Int32,System.Object,System.String,System.String,System.String,System.String,System.String,System.String,System.Object,System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+	</summary>
+	<param name="CtrID">char(12)</param>
+	<param name="chkdigit">char(1)</param>
+	<param name="sCategory">char(2)</param>
+	<param name="sLoc">char(12)</param>
+	<param name="sLocQl">char(2)</param>
+	<param name="vISOC">char(4)</param>
+	<param name="vLength">char(2)</param>
+	<param name="vHeight">char(4)</param>
+	<param name="vType">char(2)</param>
+	<param name="lWeight">interger</param>
+	<param name="vVesCd">char(9)</param>
+	<param name="vVoyIB"></param>
+	<param name="vVoyOB"></param>
+	<param name="vPOL">char(2)</param>
+	<param name="vOrigin">char(2)</param>
+	<param name="vDest">char(2)</param>
+	<param name="vPOD">char(2)</param>
+	<param name="vCallID">char(5)</param>
+	<param name="bNewItem">By default the value is TRUE for new ITEM otherwise false for update mode</param>
+	<param name="vBlk">char(3)</param>
+	<param name="vXCoord">char(2)</param>
+	<param name="vYCoord">char(2)</param>
+	<param name="vZCoord">char(2)</param>
+	<param name="vString01">varchar(50) Ctr Registry No.</param>
+	<param name="vString02">varchar(50) Examination Type</param>
+	<param name="vString03">varchar(50) Requesting Party</param>
+	<param name="sDatetime01">datetime Examination Start</param>
+	<param name="sDatetime02">datetime Examination Finish</param>
+	<param name="sDatetime03">datetime Received Load Plan</param>
+	<param name="sDatetime04">datetime System Execution</param>
+	<param name="sDatetime05">datetime Stripping Completed</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GCSInterface.GCSClass.InsUpdVessel(System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32,System.Int32,System.String)">
+	<summary>
+	</summary>
+	<param name="ves_cd"> char	9</param>
+	<param name="ves_name">char	30</param>
+	<param name="ves_type_prod">char	4</param>
+	<param name="ves_flag">char	2</param>
+	<param name="ves_draft">int	4</param>
+	<param name="ves_oa_len">int	4</param>
+	<param name="ves_oa_width">int	4</param>
+	<param name="ves_oa_height">int	4</param>
+	<param name="line_cd">char	4</param>
+	<param name="units_stability">char	4</param>
+	<param name="ves_grt">int	4</param>
+	<param name="ves_dwt">int	4</param>
+	<param name="user_id">char	32</param>
+	<returns>QueryStatus.Success if success addnew or QueryStatus.SuccessUpdate for update data</returns>
+	<remarks>
+	</remarks>
+</member><member name="M:GCSInterface.GCSClass.InsUpdVesselSched(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.DateTime,System.DateTime,System.DateTime,System.DateTime)">
+	<summary>
+	</summary>
+	<param name="ves_ref">char(5)</param>
+	<param name="ves_type">char(5)</param>
+	<param name="ves_cd">char(9)</param>
+	<param name="voy_ib">char(6)</param>
+	<param name="voy_ob">char(6)</param>
+	<param name="port_cd">char(5) port of disharge</param>
+	<param name="agt_cd">char(4)</param>
+	<param name="line_cd">char(4)</param>
+	<param name="assign_berth">char(4)since tartous have 3 use the ff. 1, 2, 3</param>
+	<param name="eta_berth_ts">datetime</param>
+	<param name="ata_berth_ts">datetime</param>
+	<param name="etd_berth_ts">datetime</param>
+	<param name="atd_berth_ts">datetime</param>
+	<param name="discharge_ts">datetime</param>
+	<returns> QueryStatus.Success or QueryStatus.SuccessUpdate</returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

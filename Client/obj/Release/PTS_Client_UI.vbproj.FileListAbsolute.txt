@@ -1,0 +1,4 @@
+F:\src\cts\Client\bin\Release\PTS_Client_UI.exe.config
+F:\src\cts\Client\obj\Release\PTS_Client_UI.exe
+F:\src\cts\Client\obj\Release\PTS_Client_UI.xml
+F:\src\cts\Client\obj\Release\PTS_Client_UI.pdb

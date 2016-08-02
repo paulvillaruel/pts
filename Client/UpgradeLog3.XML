@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Port Terminal Startup 2.0">
+</Property><Property Name="Solution File" Value="F:\src\cts\Client\Port Terminal Startup 2.0.sln">
+</Property><Property Name="Date" Value="Thursday, August 29, 2013">
+</Property><Property Name="Time" Value="9:59:25 AM">
+</Property><Property Name="Log Number" Value="3">
+</Property></Properties><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\VesselVisitManagement.vbproj" Description="Project file successfully backed up as F:\src\cts\Client\Backup1\VesselVisitManagement.vbproj">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\VesselVisitManagement.vbproj.user" Description="Project user file successfully backed up as F:\src\cts\Client\Backup1\VesselVisitManagement.vbproj.user">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\ApplicationEvents.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\ApplicationEvents.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Classes\ApplicationEvents.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Classes\ApplicationEvents.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Classes\BerthProperties.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Classes\BerthProperties.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Classes\ClassesBerthScheduler.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Classes\ClassesBerthScheduler.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Classes\CommonModule.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Classes\CommonModule.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmContainerInfo.Designer.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmContainerInfo.Designer.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmContainerInfo.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmContainerInfo.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmCraneAssign.Designer.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmCraneAssign.Designer.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmCraneAssign.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmCraneAssign.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmLocation.Designer.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmLocation.Designer.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmLocation.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmLocation.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmMonitorMoves.Designer.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmMonitorMoves.Designer.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmMonitorMoves.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmMonitorMoves.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmVisitMain.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmVisitMain.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmVisitMain.Designer.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmVisitMain.Designer.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmMonitorVesselOps.Designer.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmMonitorVesselOps.Designer.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmMonitorVesselOps.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmMonitorVesselOps.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmMovement.Designer.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmMovement.Designer.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmMovement.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmMovement.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmScheduleEntry.Designer.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmScheduleEntry.Designer.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmScheduleEntry.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmScheduleEntry.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmVesselPerformance.Designer.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmVesselPerformance.Designer.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmVesselPerformance.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmVesselPerformance.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmListView.Designer.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmListView.Designer.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmListView.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmListView.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\My Project\AssemblyInfo.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\My Project\Application.Designer.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\My Project\Resources.Designer.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\My Project\Settings.Designer.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\SplashBerth.Designer.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\SplashBerth.Designer.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\SplashBerth.vb" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\SplashBerth.vb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\app.config" Description="File successfully backed up as F:\src\cts\Client\Backup1\app.config">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\My Project\Application.myapp" Description="File successfully backed up as F:\src\cts\Client\Backup1\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\My Project\Settings.settings" Description="File successfully backed up as F:\src\cts\Client\Backup1\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\snVesselVisitManagement.snk" Description="File successfully backed up as F:\src\cts\Client\Backup1\snVesselVisitManagement.snk">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\bin\Release\activemonitor.jpg" Description="File successfully backed up as F:\src\cts\Client\Backup1\bin\Release\activemonitor.jpg">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\bin\Release\AxInterop.OWC11.dll" Description="File successfully backed up as F:\src\cts\Client\Backup1\bin\Release\AxInterop.OWC11.dll">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\bin\Release\BerthSchedule.exe" Description="File successfully backed up as F:\src\cts\Client\Backup1\bin\Release\BerthSchedule.exe">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\bin\Release\BerthSchedule.pdb" Description="File successfully backed up as F:\src\cts\Client\Backup1\bin\Release\BerthSchedule.pdb">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\bin\Release\BerthSchedule.vshost.exe" Description="File successfully backed up as F:\src\cts\Client\Backup1\bin\Release\BerthSchedule.vshost.exe">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\bin\Release\BerthSchedule.xml" Description="File successfully backed up as F:\src\cts\Client\Backup1\bin\Release\BerthSchedule.xml">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\bin\Release\exemonitor.jpg" Description="File successfully backed up as F:\src\cts\Client\Backup1\bin\Release\exemonitor.jpg">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\bin\Release\FormPrinting.dll" Description="File successfully backed up as F:\src\cts\Client\Backup1\bin\Release\FormPrinting.dll">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\bin\Release\Interop.GTSVBClass.dll" Description="File successfully backed up as F:\src\cts\Client\Backup1\bin\Release\Interop.GTSVBClass.dll">
+</Event><Event ErrorLevel="2" Project="VesselVisitManagement" Source="..\VesselVisit\bin\Release\Interop.GTSVBInterface.dll" Description="Failed to backup file as F:\src\cts\Client\Backup1\bin\Release\Interop.GTSVBInterface.dll">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\bin\Release\Interop.MSComctlLib.dll" Description="File successfully backed up as F:\src\cts\Client\Backup1\bin\Release\Interop.MSComctlLib.dll">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\bin\Release\Interop.OWC11.dll" Description="File successfully backed up as F:\src\cts\Client\Backup1\bin\Release\Interop.OWC11.dll">
+</Event><Event ErrorLevel="2" Project="VesselVisitManagement" Source="..\VesselVisit\bin\Release\Interop.RDO.dll" Description="Failed to backup file as F:\src\cts\Client\Backup1\bin\Release\Interop.RDO.dll">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\EXITEML.ICO" Description="File successfully backed up as F:\src\cts\Client\Backup1\EXITEML.ICO">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmContainerInfo.resx" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmContainerInfo.resx">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmCraneAssign.resx" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmCraneAssign.resx">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmLocation.resx" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmLocation.resx">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmMonitorMoves.resx" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmMonitorMoves.resx">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmVisitMain.resx" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmVisitMain.resx">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmMonitorVesselOps.resx" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmMonitorVesselOps.resx">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmMovement.resx" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmMovement.resx">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmScheduleEntry.resx" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmScheduleEntry.resx">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmVesselPerformance.resx" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmVesselPerformance.resx">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\frmListView.resx" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\frmListView.resx">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\My Project\Resources.resx" Description="File successfully backed up as F:\src\cts\Client\Backup1\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\Forms\SplashBerth.resx" Description="File successfully backed up as F:\src\cts\Client\Backup1\Forms\SplashBerth.resx">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\VesselVisitManagement.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VesselVisitManagement" Source="..\VesselVisit\VesselVisitManagement.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VesselVisitManagement" Source="..\VesselVisit\VesselVisitManagement.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

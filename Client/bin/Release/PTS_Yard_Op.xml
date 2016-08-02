@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PTS_Yard_Op
+</name>
+</assembly>
+<members>
+<member name="T:PTS_Yard_Op.ContainerDetails">
+	<summary>
+  These properties are current container information from
+  PSMaster. This is to give user a quick upto date container
+  overall status.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:PTS_Yard_Op.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:PTS_Yard_Op.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:PTS_Yard_Op.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:PTS_Yard_Op.Gates">
+	<summary>
+ Discussion of Processes
+ 1. Gatekeeper must key in truck plate number
+ 2. Check if this truck plate number has existing RGS or ACT visit
+ 3. If yes, fill up truck information, driver information, truck visit and linked containers.
+ 4. If not, fill up linked trucking company, create visit.
+ 5. If visit is successfully created, allow gatekeeper to add container (receiving, delivery)
+ 6. Gatekeeper must input CCR# for receiving, Gatepass# for import delivery.
+ 7. Execute gate-in, print TID.
+ 8. Gates monitoring shall track truck-containers for equipment control
+ 9. At gate-out, gatekeeper must ensure that gatepass is still valid.
+ 10. Execute gate-out, print EIR.
+ 
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

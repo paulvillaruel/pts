@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PTS_VesselBuilder
+</name>
+</assembly>
+<members>
+<member name="P:PTS_VesselBuilder.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:PTS_VesselBuilder.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:PTS_VesselBuilder.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:PTS_VesselBuilder.ContainerDetails">
+	<summary>
+  These properties are current container information from
+  PSMaster. This is to give user a quick upto date container
+  overall status.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

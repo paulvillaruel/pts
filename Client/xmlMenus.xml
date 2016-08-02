@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MenuDefinition>
+	<MenuItem>
+		<mnucde>sys</mnucde>
+		<prtmnu>sys</prtmnu>
+		<mnudesc>System</mnudesc>
+		<imgndx>0</imgndx>
+		<en_us>This is for system options</en_us>
+		<ar_sy>متثقغغ  ثهقث</ar_sy>
+	</MenuItem>
+	<MenuItem>
+		<mnucde>ctr</mnucde>
+		<prtmnu>ctr</prtmnu>
+		<mnudesc>Container</mnudesc>
+		<imgndx>1</imgndx>
+		<en_us>Container Information</en_us>
+		<ar_sy>متثقغغ  ثهقث</ar_sy>
+	</MenuItem>
+	<MenuItem>
+		<mnucde>car</mnucde>
+		<prtmnu>car</prtmnu>
+		<mnudesc>Carrier</mnudesc>
+		<imgndx>2</imgndx>
+		<en_us>This is for carrier settings</en_us>
+		<ar_sy>متثقغغ  ثهقث</ar_sy>
+	</MenuItem>
+</MenuDefinition>

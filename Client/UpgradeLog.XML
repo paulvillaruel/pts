@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Port Terminal System 1.22">
+</Property><Property Name="Solution File" Value="F:\src\cts\Client\Port Terminal System 1.22.sln">
+</Property><Property Name="Date" Value="Thursday, August 29, 2013">
+</Property><Property Name="Time" Value="9:39 AM">
+</Property></Properties><Event ErrorLevel="0" Project="PTS_Client_UI" Source="PTS_Client_UI.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PTS_Client_UI" Source="PTS_Client_UI.vbproj" Description="Converted">
+</Event><Event ErrorLevel="2" Project="PTS_VesselBuilder" Source="..\..\Vessel Builder\VesselBuilder\PTS_VesselBuilder.vbproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="2" Project="FormPrinting" Source="..\..\Vessel Builder\FormPrinting\FormPrinting.csproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="2" Project="RegistryConfiguration" Source="..\..\Vessel Builder\RegistryConfiguration\RegistryConfiguration.vbproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="2" Project="PTS_Core" Source="..\PTS Core\PTS_Core.vbproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="2" Project="GCSInterface" Source="..\GCSInterface\GCSInterface\GCSInterface.vbproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="2" Project="VesselVisitManagement" Source="..\..\Vessel Visit Management\Vessel Visit Management Source\VesselVisitManagement.vbproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="2" Project="PTS_Yard_Op" Source="..\PTS Yard Gates\PTS_Yard_Op.vbproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="0" Project="" Source="Port Terminal System 1.22.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Port Terminal System 1.22.sln" Description="Converted">
+</Event><Event ErrorLevel="1" Project="PTS_Client_UI" Source="About.Designer.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="PTS_Client_UI" Source="About.Designer.vb" Description="Not Converted">
+</Event><Event ErrorLevel="0" Project="PTS_Client_UI" Source="PTS_Client_UI.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
